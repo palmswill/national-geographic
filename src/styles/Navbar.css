@@ -1,0 +1,109 @@
+nav {
+  position: fixed;
+  padding: 40px 5% 0%;
+  height: 80px;
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+nav > * {
+  height: 100%;
+}
+
+nav ul {
+  margin-left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+nav ul > * {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0px 2px;
+  margin: 0px 1ch;
+  white-space: nowrap;
+}
+
+nav ul > *.active {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+nav ul > *:hover {
+  border-bottom: 2px solid var(--primary-color);
+}
+
+nav input {
+  display: inline-block;
+  border-radius: 5px;
+  margin-right: 5px;
+  padding: 3px 0px 0px 10px;
+  margin-left: auto;
+  color: inherit;
+  width: 80px;
+  height: 60%;
+  border: none;
+  vertical-align: bottom;
+  line-height: normal;
+}
+
+nav input:focus {
+  width: 160px;
+  background-color: var(--transparent-white);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+nav input:hover {
+  width: 160px;
+  background-color: var(--transparent-white);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+nav input::-webkit-input-placeholder {
+  color: var(--primary-text-color);
+  font-size: 1.1rem;
+  width: -webkit-fit-content;
+  width: fit-content;
+  line-height: 1.1rem;
+}
+
+nav input:-ms-input-placeholder {
+  color: var(--primary-text-color);
+  font-size: 1.1rem;
+  width: fit-content;
+  line-height: 1.1rem;
+}
+
+nav input::-ms-input-placeholder {
+  color: var(--primary-text-color);
+  font-size: 1.1rem;
+  width: fit-content;
+  line-height: 1.1rem;
+}
+
+nav input::placeholder {
+  color: var(--primary-text-color);
+  font-size: 1.1rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  line-height: 1.1rem;
+}
+
+nav i {
+  height: 50%;
+  font-size: 1.1rem;
+}
+/*# sourceMappingURL=Navbar.css.map */
