@@ -1,0 +1,72 @@
+section.mainshow {
+  width: 100%;
+  position: relative;
+  height: 63.4vw;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+section.mainshow > * {
+  position: absolute;
+}
+
+section.mainshow img.bg {
+  width: 100vw;
+  left: 0;
+  top: -10%;
+}
+
+section.mainshow img.head {
+  width: 100vw;
+  z-index: 2;
+  top: -10%;
+  left: 0;
+}
+
+section.mainshow h1 {
+  font-size: 10vw;
+  left: 75%;
+  top: 30%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: rgba(244, 248, 251, 0.5);
+}
+
+section.mainshow .tab {
+  font-size: 1.1vw;
+  width: 25%;
+  padding: 5px;
+  text-align: left;
+  top: 50%;
+  left: 60%;
+  z-index: 3;
+}
+
+section.mainshow .tab > * {
+  margin: 5px;
+}
+
+section.mainshow .tab .button {
+  color: black;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 2ch;
+}
+
+section.mainshow .tab .button i {
+  margin-right: 1ch;
+}
+
+section.mainshow .tab .button:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+section.mainshow .tab .watch {
+  background-color: #d6d61c;
+}
+
+section.mainshow .tab .more {
+  background-color: rgba(244, 248, 251, 0.5);
+}
+/*# sourceMappingURL=MainShow.css.map */

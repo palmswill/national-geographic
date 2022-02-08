@@ -25,11 +25,12 @@ input{
 
 .App {
   text-align: center;
-  min-height:100vh;
-  background-image:url("./assets/images/eg_crop.jpg");
+  /* background-image:url("./assets/images/eg_crop.jpg");
   background-size:100vw;
   background-position:0% 10%;
-  background-repeat:no-repeat;
+  background-repeat:no-repeat; */
   color:var(--primary-text-color);
+  background-color: black;
+  min-height:100vh;
   
 }

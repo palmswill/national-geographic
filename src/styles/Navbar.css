@@ -10,6 +10,7 @@ nav {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  z-index: 50;
 }
 
 nav > * {
@@ -58,14 +59,14 @@ nav input {
 }
 
 nav input:focus {
-  width: 160px;
+  width: 200px;
   background-color: var(--transparent-white);
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
 
 nav input:hover {
-  width: 160px;
+  width: 200px;
   background-color: var(--transparent-white);
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;

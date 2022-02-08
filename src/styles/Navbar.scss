@@ -6,6 +6,7 @@ nav {
   display: flex;
   width: 100%;
   align-items: flex-end;
+  z-index:50;
 
   > * {
     height: 100%;
@@ -29,6 +30,7 @@ nav {
       &:hover {
         border-bottom: 2px solid var(--primary-color);
       }
+      
     }
   }
 
@@ -46,16 +48,17 @@ nav {
     line-height: normal;
 
     &:focus {
-      width: 160px;
+      width: 200px;
       background-color: var(--transparent-white);
       transition: all 1s ease-in-out;
     }
 
     &:hover{
-      width: 160px;
+      width: 200px;
       background-color: var(--transparent-white);
       transition: all 1s ease-in-out;
     }
+    
 
     &::placeholder {
       color: var(--primary-text-color);

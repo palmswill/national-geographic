@@ -1,0 +1,67 @@
+section.mainshow {
+  width: 100%;
+  position: relative;
+  height: 63.4vw;
+  overflow-x: hidden;
+  overflow-y: visible;
+
+  > * {
+    position: absolute;
+  }
+
+  img.bg {
+    width: 100vw;
+    left: 0;
+    top: -10%;
+  }
+
+  img.head {
+    width: 100vw;
+    z-index: 2;
+    top: -10%;
+    left: 0;
+  }
+
+  h1 {
+    font-size: 10vw;
+    left: 75%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    color: rgba(244, 248, 251, 0.5);
+  }
+
+  .tab {
+    font-size: 1.1vw;
+    width: 25%;
+    padding: 5px;
+    text-align: left;
+    top: 50%;
+    left: 60%;
+    z-index: 3;
+
+    > * {
+      margin: 5px;
+    }
+
+    .button {
+      color: black;
+      display: inline-block;
+      border-radius: 5px;
+      padding: 2ch;
+
+      i {
+        margin-right: 1ch;
+      }
+
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+    }
+    .watch {
+      background-color: rgb(214, 214, 28);
+    }
+    .more {
+      background-color: rgba(244, 248, 251, 0.5);
+    }
+  }
+}
